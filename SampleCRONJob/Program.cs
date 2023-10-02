@@ -40,11 +40,9 @@ try
         }
     }
 
-    // Display the parsed people
     foreach (var person in people)
-    {
         Console.WriteLine($"ID: {person.Id}, Name: {person.FirstName} {person.Surname}, Date of Birth: {person.DateOfBirth.ToShortDateString()}, Age: {person.Age}");
-    }
+    
 
     Console.WriteLine($"Job finshed @ {DateTime.Now}");
 }
